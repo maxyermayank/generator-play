@@ -1,0 +1,33 @@
+{
+  "name": "generator-play",
+  "version": "0.1.0",
+  "description": "Yemon (YO) Play application generator",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "app"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:maxyermayank/generator-play.git"
+  },
+  "author": "Mayank Patel <maxy.ermayank@gmail.com>",
+  "license": "Proprietary",
+  "private": true,
+  "dependencies": {
+    "cheerio": "~0.20.0",
+    "fs-extra": "~0.30.0",
+    "git-config": "~0.0.7",
+    "grasp": "~0.4.0",
+    "lodash": "~4.11.2",
+    "yeoman-generator": "~0.23.3"
+  },
+  "devDependencies": {
+    "mocha": "~2.4.5"
+  }
+}

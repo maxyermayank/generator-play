@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "iojs"
+branches:
+  only:
+    - master
+notifications:
+  email:
+    recipients:
+      - maxy.ermayank@gmail.com
